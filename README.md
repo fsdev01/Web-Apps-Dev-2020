@@ -11,5 +11,5 @@
   <li> Lab Exercises </li>
   <li> Lecture Code </li>
   <li> Assignment 1: Taxi Booking Application using PHP and MySQL</li>
-  <li> Assignment 2: Online Shopping Site using PHP, AJAX, XML and XPath/XSLT </li>
-<\ol>
+  <li> Assignment 2: Online Shopping Site using PHP, AJAX, XML and XPath &#47 XSLT </li>
+</ol>
