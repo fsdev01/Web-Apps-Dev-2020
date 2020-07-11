@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Week 5 Lab Task A"/>
+    <meta name="keywords" content="TaskA"/>
+    <meta name="author" content="VH - 102125413"/>
+    <title>Week 5 Lab - Task A</title>
+    <script>
+
+        // Lab 5 PDF Hints: (1) use document.write() for output
+        //                  (2) onclick="printNumber(numberfield.value);
+        // Note that: document.write() will overwrite the entire contents of the current document
+        // Reference: https://stackoverflow.com/questions/10873942/document-write-clears-page
+
+        // Example: Input 12 will print 12,11,10,9,8,7,5,1”, 
+        // because 12 can be divided evenly by 6,4,3,2
+        function printNumber(number){
+
+            // STEP 1: Clear previous result displayed in <span> element
+            document.getElementById("result").innerHTML = "";
+
+            // STEP 2: Extract Input/Number from user
+            // Method 1: Extract from the input element using getElementById()
+           // var input = document.getElementById("number").value;  
+           // Method 2: Extract input from paramter to printNumber() function as per hint
+           var input = number; // Input provided by the 
+
+
+           // STEP 3: Validate Input Number
+           // Case 3A: Invalid Input - Negative Integers or Zero
+            if(input <= 0){
+                alert("Invalid Input. Input Value must be > 0");
+            }
+            //Case 3B: Valid Inputs - Positive Integers
+            else{
+
+                // Create a String to store the Sequence of Numbers
+                // Initalise String with input number
+                var outputString = input;
+
+                // Loop from input -1 to 1
+                for(var i = input - 1 ; i > 1 ; i-- ){
+
+                    // Check whether the number is divisble by i? If yes, don't print number.
+                    if( input % i != 0){
+                        outputString = outputString + "<br/>" + i;
+                    }
+                    
+                }
+                // Finalise String with number '1'
+                outputString  = outputString + "<br/>" + "1";
+                
+
+                //Method 1 of Output: Adjust innerHTML of an existing element
+                var resultElement = document.getElementById("result");
+                resultElement.innerHTML = outputString;  
+                
+                // Alternative - Method 2: Overwrite the contents of existing document using document.write();
+                //document.write("<h1> " + outputString + "</h1>"); 
+
+            }
+        }
+     </script>
+    
+</head>
+<body>
+    <h1> Lab 5 - Task A</h1>
+    <form>
+        <p>
+            <label for="number">Please input a number: </label>
+            <input type="text" id="number" name="number"/>
+            <button type="button" id="submit" onclick="printNumber(number.value)">Calculate</button>
+        </p>
+        <p>Result is shown as below:</p>
+        <p> <span id="result"> </span> </p>
+    </form>
+    
+</body>
+</html>

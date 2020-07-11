@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="description" content="Week 5 Lab Task E"/>
+  <meta name="keywords" content="TaskE"/>
+  <meta name="author" content="VH - 102125413"/>
+  <title>Week 5 Lab - Task E Address Book</title>
+  <style type="text/css">
+      .ab {
+          	font-family: Verdana, Arial, Helvetica, sans-serif;
+          	font-size: small;
+          	color: #993300;
+          	background-color: #CCFFCC;
+          	padding: 5px;
+          	height: 100px;
+          	width: 350px;
+          	border: thin dotted #993300;
+    }
+  </style>
+  
+  <script type="text/javascript">
+    // Prototype - Class
+    function addressBookItem (fname, lname, email) {
+      this.fname= fname;
+      this.lname = lname; 
+      this.email = email;
+    }
+
+    // Assign a function to the prototype
+    addressBookItem.prototype.write = function() {
+
+      // Create a new table element using the attributes of the prototype class
+      // "this" - reference
+      var output = "<tr>" 
+          +"<td>" + this.fname + "</td>"
+          +"<td>" + this.lname + "</td>"
+          +"<td>" + this.email + "</td>"
+          +"</tr>";
+      document.write(output);
+    }
+
+
+    // Event Handler for onmouseover() event
+    function adjustElement(){
+      var element = this;
+      element.style.fontSize = "1.5em";
+      element.style.backgroundColor = "green";
+      element.style.color = "white";
+    }
+
+    // Event Handler for onmouseout() event
+    function revertElement(element){
+      var element = this;
+      element.style.fontSize = "1em";
+      element.style.backgroundColor = "white";
+      element.style.color = "green";
+    }
+
+
+    function addBord(e){
+      // Get reference to element that triggered the event
+      var target = e.target || event.srcElement;
+      // Case 1: If element is current bold, then change font weight to normal
+      if(target.style.fontWeight == "bold"){
+        target.style.fontWeight = "normal";
+      }
+      else { // Case 2: If element has "normal" weight, then change font to "bold"
+        target.style.fontWeight = "bold";
+      }
+    }
+
+
+    function appendRow(){
+      // Get input from the user
+      var fname = prompt("Enter First Name:");
+      var lname = prompt("Enter Last Name:");
+      var email = prompt("Enter Email Address:");
+
+
+      // Alternative : https://www.w3schools.com/jsref/met_table_insertrow.asp
+
+      // Get Reference to Table Element <table> - VIA DOM
+      var tableRef = document.getElementById("mytable");
+
+      // Create the table row
+      var tempRow = document.createElement("tr");
+      // Set color to tempRow <tr>
+      tempRow.style.color = "green";
+
+      // Create the 3 td elements
+      // <td> 1
+      var t1 = document.createElement("td"); // create <td> element
+      var t1Text = document.createTextNode(fname); // create text tnode
+      t1.addEventListener("click",addBord,false); // add event listener/handler to <td> element
+      t1.addEventListener("mouseover",adjustElement,false) // add mouseover event
+      t1.addEventListener("mouseout",revertElement,false) // add mouseout event
+      t1.appendChild(t1Text);  //Append the text node the element
+
+
+      // <td> 2
+      var t2 = document.createElement("td");
+      var t2Text = document.createTextNode(lname);
+      t2.addEventListener("click",addBord,false); // add event listener/handler to <td> element
+      t2.addEventListener("mouseover",adjustElement,false) // add mouseover event
+      t2.addEventListener("mouseout",revertElement,false) // add mouseout event
+      t2.appendChild(t2Text);
+
+      // <td> 3
+      var t3 = document.createElement("td");
+      var t3Text = document.createTextNode(email);
+      t3.addEventListener("click",addBord,false); // add event listener/handler to <td> element
+      t3.addEventListener("mouseover",adjustElement,false) // add mouseover event
+      t3.addEventListener("mouseout",revertElement,false) // add mouseout event
+      t3.appendChild(t3Text);
+
+      // Append the <td> elements to the row element <tr>
+      tempRow.appendChild(t1);
+      tempRow.appendChild(t2);
+      tempRow.appendChild(t3);
+
+      // Add the table row to the table
+      tableRef.appendChild(tempRow);
+
+
+    }
+
+	
+</script>
+</head>
+<body> 
+    <script type="text/javascript">
+        // Create two addressBookItem objects()
+        var aB1 = new addressBookItem('Roger', 'Williams', 'rwilliams@gmail.com');
+        var aB2 = new addressBookItem ('Rose', 'Schultz', 'rose_s@earthlink.net');
+
+        // Display the table with addreses
+        // Table Element and Table Header Elements <table> and <th>
+        var output = "<table border='1' id='mytable' >"
+                  +"<tr>"
+                  +"<th>First Name </th>"
+                  +"<th>Last Name </th>"
+                  +"<th>Email Address</th>"
+                  +"</tr>";
+        document.write(output);
+
+
+        // Table Contents - Rows (firstname,lastname and email)
+        // <tr> nested with <td> elements
+        aB1.write();
+        aB2.write();
+
+        // Closing tag - </table>
+        output = "</table>";
+        document.write(output);
+
+        // Add new append button with "onclick" event handled by appendRow();
+        document.write("<button type='button' onclick='appendRow()'>Append New Row</button>");
+
+
+
+    </script>
+</body>
+</html>

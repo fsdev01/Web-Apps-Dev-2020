@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="description" content="Week 5 Lab Task B"/>
+  <meta name="keywords" content="TaskB"/>
+  <meta name="author" content="VH - 102125413"/>
+  <title>Week 5 Lab - Task B Address Book</title>
+  <style type="text/css">
+      .ab {
+          	font-family: Verdana, Arial, Helvetica, sans-serif;
+          	font-size: small;
+          	color: #993300;
+          	background-color: #CCFFCC;
+          	padding: 5px;
+          	height: 100px;
+          	width: 350px;
+          	border: thin dotted #993300;
+    }
+  </style>
+  
+  <script type="text/javascript">
+    // Prototype - Class
+    function addressBookItem (fname, lname, email) {
+      this.fname= fname;
+      this.lname = lname; 
+      this.email = email;
+    }
+
+    // Assign a function to the prototype
+    addressBookItem.prototype.write = function() {
+
+      // Create a new table element
+      var output = "<tr>" 
+          +"<td>" + this.fname + "</td>"
+          +"<td>" + this.lname + "</td>"
+          +"<td>" + this.email + "</td>"
+          +"</tr>";
+      document.write(output);
+    }
+
+
+	
+</script>
+</head>
+<body> 
+    <script type="text/javascript">
+        // Create two addressBookItem objects()
+        var aB1 = new addressBookItem('Roger', 'Williams', 'rwilliams@gmail.com');
+        var aB2 = new addressBookItem ('Rose', 'Schultz', 'rose_s@earthlink.net');
+
+        // Display the table with addreses
+        // Table Element and Table Header Elements 
+        var output = "<table border='1'>"
+                  +"<tr>"
+                  +"<th>First Name </th>"
+                  +"<th>Last Name </th>"
+                  +"<th>Email Address</th>"
+                  +"</tr>";
+        document.write(output);
+
+
+        // Table Contents - Rows (firstname,lastname and email)
+        aB1.write();
+        aB2.write();
+
+        // Closing tag - table
+        output = "</table>";
+        document.write(output);
+
+    </script>
+</body>
+</html>
