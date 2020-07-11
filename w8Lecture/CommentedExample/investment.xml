@@ -1,0 +1,8 @@
+<?xml version="1.0"?> 
+<investment> 
+  <type>stock</type> 
+  <name>Microsoft</name> 
+  <price type="high">100</price> 
+  <price type="low">94</price> 
+</investment> 
+

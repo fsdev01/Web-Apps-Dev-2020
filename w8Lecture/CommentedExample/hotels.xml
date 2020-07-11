@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="Paris.xsl"?>
+<hotels>
+    <hotel>
+        <city>Paris</city>
+        <name>La Splendide</name>
+        <type>Budget</type>
+        <price>100</price>
+    </hotel>
+    <hotel>
+        <city>London</city>
+        <name>The Rilton</name>
+        <type>Luxury</type>
+        <price>300</price>
+    </hotel>
+    <hotel>
+        <city>Paris</city>
+        <name>Marriott Rive Gauche</name>
+        <type>Luxury</type>
+        <price>350</price>
+    </hotel>
+    <hotel>
+        <city>New York</city>
+        <name>The Imperial</name>
+        <type>Standard</type>
+        <price>150</price>
+    </hotel>
+    <hotel>
+        <city>Paris</city>
+        <name>Passy Eiffel</name>
+        <type>Standard</type>
+        <price>240</price>
+    </hotel>
+</hotels>
+

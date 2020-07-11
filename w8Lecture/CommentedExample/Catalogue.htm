@@ -1,0 +1,24 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+  <link id="Link1" rel="stylesheet"  href="Cart.css" type="text/css" />
+  <script type="text/javascript" src="ShoppingCart.js"></script>  
+</head>
+<body>
+
+	<form id="form1" method="post" action="cartdisplay.php"><br/>
+		<!-- Book One Details -->
+		<img id="cover" src="begaspnet.jpg" /><br />
+		<br />
+		<b>Book:</b><span id="book">Beginning ASP.NET with CSharp</span><br />
+		<b>Authors: </b><span id="authors"> Hart, Kauffman, Sussman, Ullman</span>
+		<br /><b>ISBN: </b><span id="ISBN">0764588508</span>
+		<br /><b>Price: </b><span id="price">$39.99</span>
+		<br /><br />
+		<a href="#" onclick="AddRemoveItem('Add');" >Add to Shopping Cart</a>
+		<br /><br />
+
+		<!-- Cart -->
+		<span id="cart" ></span>
+	</form>
+</body>
+</html>
