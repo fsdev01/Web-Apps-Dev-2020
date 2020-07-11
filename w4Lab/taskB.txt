@@ -1,0 +1,31 @@
+Question 1:
+CREATE TABLE employees (
+ employee_id int NOT NULL AUTO_INCREMENT,
+ first_name varchar(30) NOT NULL,
+ last_name varchar(30) NOT NULL,
+ address varchar(30) NOT NULL,
+ city varchar(30) NOT NULL,
+ state varchar(30) NOT NULL,
+ zip varchar(5) NOT NULL,
+ PRIMARY KEY (employee_id)
+);
+
+Question 2: 
+INSERT INTO employees(last_name,first_name,address,city,state,zip)
+VALUES ("Blair","Dennis","204 Spruce Lane","Brookfield","MA","01506");
+
+INSERT INTO employees(last_name,first_name,address,city,state,zip)
+VALUES ("Hernandez","Louis","68 Boston Post Road","Spencer","MA","01562");
+
+INSERT INTO employees(last_name,first_name,address,city,state,zip)
+VALUES ("Miller","Erica","271 Baker Hill Road","Brookfield","MA","01515");
+
+INSERT INTO employees(last_name,first_name,address,city,state,zip)
+VALUES ("Morinaga","Scott","17 Ashley Road","Brookfield","MA","01515");
+
+INSERT INTO employees(last_name,first_name,address,city,state,zip)
+VALUES ("Picard","Raymond","1113 Oakham Road","Barre","MA","01531");
+
+Question 3: SELECT * FROM employees
+
+Question 4: UPDATE employees SET last_name="King" WHERE employee_id = 3;

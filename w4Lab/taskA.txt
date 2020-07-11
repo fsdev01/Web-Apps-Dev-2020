@@ -1,0 +1,36 @@
+Question 1:
+CREATE TABLE inventory (
+Item_number int NOT NULL AUTO_INCREMENT,
+ make varchar(30) NOT NULL,
+model varchar(30) NOT NULL,
+price double NOT NULL,
+quantity int NOT NULL,
+PRIMARY KEY (item_number)
+)
+
+Question 2:
+INSERT INTO inventory(make,model,price,quantity)
+VALUES ("Martin","Martin DX1 Dreadnought",699,23);
+
+INSERT INTO inventory(make,model,price,quantity)
+VALUES ("Washburn","D100",329.9,15);
+
+INSERT INTO inventory(make,model,price,quantity)
+VALUES ("Washburn","D30s",729.99,5);
+
+INSERT INTO inventory(make,model,price,quantity)
+VALUES ("Yamaha","FG720S",279.99,12);
+
+INSERT INTO inventory(make,model,price,quantity)
+VALUES ("Fender","DG7",368.2,3);
+
+INSERT INTO inventory(make,model,price,quantity)
+VALUES ("Washburn","D10s",349.99,3);
+
+Question 3:
+SELECT * FROM inventory;
+
+Question 4:
+UPDATE inventory
+SET quantity=0
+WHERE item_number = 6;
