@@ -1,0 +1,5 @@
+Which is a Transport Layer Protocol?,TCP,HTTP,POP3,CDMA,TCP
+window.onload is an,A Property,An object,An event,A Method,An event
+The Internet acronym DNS stands for,Dynamic Network Server,Domain Network Server,Dynamic Network System,Domain Name System,Domain Name System
+The expression 17 % 5 evalutes to,1,2,It does not evaluate. It produces an error,3,3
+In PHP all variables start with,!,%,&,$,$

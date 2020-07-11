@@ -1,0 +1,4 @@
+Two other implementations:
+(a) two seperate files for quiz and answers
+(b) single file where 5 lines (1st line: Question, 2-5th line: Answers)
+
