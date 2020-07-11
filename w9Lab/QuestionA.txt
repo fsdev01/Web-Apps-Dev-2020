@@ -1,0 +1,15 @@
+Question: JavaScript is loaded from http://mercury.swin.edu.au/WAD/page.html. 
+An attempt is made to access the following Web pages from the script using a Mozilla based browser:
+(i) http://mercury.swin.edu.au/WAD/webserv/content.html
+(ii) https://mercury.swin.edu.au/WAD/register.html 
+(iii)http://venus.swin.edu.au/W AD/page.html 
+(iv)http://mercury.swin.edu.au:81/W AD/max.htm
+
+Answer: The First link can be accessed using the script (Same Origin)
+(i) http://mercury.swin.edu.au/WAD/webserv/content.html - has the same host and protocol (http)
+
+The THREE REMAINING links CANNOT be Accessed using the script 
+(ii) https://mercury.swin.edu.au/WAD/register.html Why? Different Protocol (https)
+(iii)http://venus.swin.edu.au/WAD/page.html Why? Different host (venus.swin.edu.au)
+(iv)http://mercury.swin.edu.au:81/W AD/max.htm Why? Different Port Number 
+
