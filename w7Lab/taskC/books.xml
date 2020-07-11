@@ -1,0 +1,19 @@
+<?xml version="1.0"?> 
+<books>
+	<book>
+		<id>1</id>
+		<title>Beginning ASP.NET with CSharp</title>
+		<authors>Hart, Kauffman, Sussman, Ullman</authors>
+		<isbn>0764588508</isbn>
+		<price>$39.99</price>
+		<image>begaspnet.jpg</image>
+	</book>
+	<book>
+		<id>2</id>
+		<title>Learning PHP 5</title>
+		<authors>David Sklar</authors>
+		<isbn>9780596005603</isbn>
+		<price>$19.99</price>
+		<image>image2.png</image>
+	</book>
+</books>
