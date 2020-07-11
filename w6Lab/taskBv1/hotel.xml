@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<hotels>
+	<hotel>
+		<City>Paris</City>
+		<Name>La Splendide1</Name> 
+		<Type>Budget</Type> 
+		<Price>100</Price>
+	</hotel> 
+	<hotel>
+		<City>Paris</City>
+		<Name>Les Piaules</Name> 
+		<Type>Budget</Type> 
+		<Price>79</Price>
+	</hotel> 
+	<hotel>
+		<City>Paris</City>
+		<Name>Hotel Exquis by Elegancia</Name> 
+		<Type>Budget</Type> 
+		<Price>121</Price>
+	</hotel> 
+	<hotel>
+		<City>Paris</City>
+		<Name>Hotel du Beaumont</Name> 
+		<Type>Standard</Type> 
+		<Price>158</Price>
+	</hotel> 
+	<hotel>
+		<City>Paris</City>
+		<Name>Hotel Andrea</Name> 
+		<Type>Luxury</Type> 
+		<Price>220</Price>
+	</hotel> 
+	<hotel>
+		<City>London</City> 
+		<Name>Bath Hotel</Name> 
+		<Type>Budget</Type> 
+		<Price>90</Price>
+	</hotel>
+	<hotel>
+		<City>London</City> 
+		<Name>Kensington Suite Hotel</Name> 
+		<Type>Budget</Type> 
+		<Price>54</Price>
+	</hotel>
+	<hotel>
+		<City>London</City> 
+		<Name>The Mad Hatter Hotel</Name> 
+		<Type>Standard</Type> 
+		<Price>158</Price>
+	</hotel>  
+	<hotel>
+		<City>London</City> 
+		<Name>The Rilton</Name> 
+		<Type>Luxury</Type> 
+		<Price>300</Price>
+	</hotel> 
+	<hotel>
+		<City>New York</City> 
+		<Name>Best Western Plus Plaza Hotel</Name> 
+		<Type>Budget</Type> 
+		<Price>121</Price>
+	</hotel> 
+	<hotel>
+		<City>New York</City> 
+		<Name>Courtyard by Marriott New</Name> 
+		<Type>Standard</Type> 
+		<Price>163</Price>
+	</hotel> 
+	<hotel>
+		<City>New York</City> 
+		<Name>EVEN Hotel New York - Times Square South</Name> 
+		<Type>Luxury</Type> 
+		<Price>249</Price>
+	</hotel> 
+	<hotel>
+		<City>Chicago</City> 
+		<Name>CENTRAL LOOP Hotel</Name> 
+		<Type>Budget</Type> 
+		<Price>97</Price>
+	</hotel>
+	<hotel>
+		<City>Chicago</City> 
+		<Name>Hilton Chicago</Name> 
+		<Type>Standard</Type> 
+		<Price>179</Price>
+	</hotel> 
+	<hotel>
+		<City>Chicago</City> 
+		<Name>Park Hyatt Chicago</Name> 
+		<Type>Luxury</Type> 
+		<Price>424</Price>
+	</hotel> 
+	<hotel>
+		<City>Seattle</City> 
+		<Name>Kings Inn</Name> 
+		<Type>Budget</Type> 
+		<Price>93</Price>
+	</hotel>
+	<hotel>
+		<City>Seattle</City> 
+		<Name>Hilton Garden Inn Seattle Downtown</Name> 
+		<Type>Standard</Type> 
+		<Price>142</Price>
+	</hotel>  
+	<hotel>
+		<City>Seattle</City> 
+		<Name>Grand Hyatt Seattle</Name> 
+		<Type>Luxury</Type> 
+		<Price>279</Price>
+	</hotel> 
+</hotels>

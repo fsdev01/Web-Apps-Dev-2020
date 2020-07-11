@@ -1,0 +1,31 @@
+<?xml version="1.0"?> 
+<weather>
+	<event>
+		<date>1/4/2013</date>
+		<maxtemp>24.0</maxtemp>
+	</event>
+	<event>
+		<date>2/4/2013</date>
+		<maxtemp>21.9</maxtemp>
+	</event>
+	<event>
+		<date>3/4/2013</date>
+		<maxtemp>24.4</maxtemp>
+	</event>
+	<event>
+		<date>4/4/2013</date>
+		<maxtemp>25.8</maxtemp>
+	</event>
+	<event>
+		<date>5/4/2013</date>
+		<maxtemp>26.9</maxtemp>
+	</event>
+	<event>
+		<date>6/4/2013</date>
+		<maxtemp>25.3</maxtemp>
+	</event>
+	<event>
+		<date>7/4/2013</date>
+		<maxtemp>25.7</maxtemp>
+	</event>
+</weather>

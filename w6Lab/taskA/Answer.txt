@@ -1,0 +1,4 @@
+Part A:
+Sync Request means the front-end (JS) can't do anything (e.g. perform operations), until
+the server provides a response.
+Part B: The sleep(5) on the server-side delays the processing time on the server and thus delays the response to the client, which is very noticeable delay.

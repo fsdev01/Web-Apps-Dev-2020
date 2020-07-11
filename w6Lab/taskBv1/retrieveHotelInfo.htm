@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<script type="text/javascript" src="retrieveHotelInfo.js"></script> 
+</head> 
+<body>
+	Destination:
+	<br /> 
+	<select id="selectCity" onchange="retrieveInformation()">
+		<option value="London" selected="true">London</option>
+		<option value="Paris">Paris</option>
+		<option value="New York">New York</option>
+		<option value="Chicago">Chicago</option>
+		<option value="Seattle">Seattle</option>
+	</select>
+	<br />
+	<br />
+	Price Range:
+	<br />
+	Budget<input name="range" value="Budget" type="radio"  onclick="retrieveInformation()"/>
+	Standard<input name="range" value="Standard" type="radio" onclick="retrieveInformation()" checked="true"/>
+	Luxury<input  name="range" value="Luxury" type="radio"  onclick="retrieveInformation()"/>
+	<div id="information">
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
