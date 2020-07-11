@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head> 
+  	<meta charset="utf-8"/>
+  	<meta name="description" content="Week 1 Lab Task E"/>
+  	<meta name="keywords" content="TaskE"/>
+  	<meta name="author" content="VH"/>
+    <title>Week 1 - Lab Task F</title> 
+	<script type="text/javascript" src="xhr.js"></script>
+    <script type="text/javascript" src="simpleajax.js"> </script>
+  </head> 
+  <body>
+  <h1>Week 1 Lab - Task F - AJAX VERSION &nbsp;</h1>
+	<form>
+	    <p>
+	    	<label for="uname">User Name: </label>
+	    	<input id="uname" type="text" name="namefield">
+	    </p>
+	    <p>	
+	    	<label for="pwd">Password: </label>
+	    	<input id="pwd" type="text" name="pwdfield">
+	    </p>
+	    <p>
+	    	<label for="gender">Gender: </label>
+	    	<input id="male" type="radio" name="gender" value="male"/>
+	    	<label for="male"> Male </label>
+            <input id="female" type="radio" name="gender" value="female"/>
+            <label for="female">Female </label>
+        </p>
+        <p>
+        	<label for="age">Age</label>
+        	<select id="age" name="age">
+        		<option value="0-20">Under 18 </option>
+        		<option value="18to25">18 to 25 </option>
+        		<option value="26to35">26 to 35 </option>
+        	</select>
+        </p>
+        <p>
+        	<label>Email: <input type="text" name="email" /></label>
+        </p>
+
+        <p>
+	   		<input name="submit" type = "button" onClick = "getData('userRegistration.php','targetDiv', namefield.value, pwdfield.value,gender.value,age.value,email.value) " value = "Submit">
+	   	</p>
+
+	</form>
+	<div id="targetDiv"> 
+	    <p>The fetched data will go here.</p>  
+	</div> 
+ </body> 
+</html>
