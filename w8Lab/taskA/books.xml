@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+	<book>
+		<title category="non-fiction">JavaScript and JQuery: Interactive Front-End Web Development</title>
+		<author>Jon Duckett</author>
+		<publisher>Wiley</publisher>
+		<year>2014</year>
+		<price>40.24</price>
+	</book>
+	<book>
+		<title category="non-fiction">A Bigger Picture</title>
+		<author>Malcolm Turnbull</author>
+		<publisher>Hardie Grant Publishing</publisher>
+		<year>2020</year>
+		<price>29.00</price>
+	</book>
+	<book>
+		<title category="fiction">The Beast Of Buckingham Palace</title>
+		<author>David Walliams</author>
+		<publisher>HarperCollins Australia</publisher>
+		<year>2019</year>
+		<price>16.99</price>
+	</book>
+	<book>
+		<title category="fiction">The Treehouse Joke Book</title>
+		<author>Andy Griffiths</author>
+		<author>Terry Denton</author>
+		<publisher>Pan Macmillan Australia</publisher>
+		<year>2019</year>
+		<price>12.99</price>
+	</book>
+	<book>
+		<title category="fiction">Blood of Elves</title>
+		<author>Andrzej Sapkowski</author>
+		<author>Danusia Stok</author>
+		<publisher>Little Brown &#38; Company</publisher>
+		<year>2009</year>
+		<price>18.99</price>
+	</book>
+	<book>
+		<title category="fiction">Tom Clancy's Code of Honour</title>
+		<author>Marc Cameron</author>
+		<publisher>Penguin Books Ltd</publisher>
+		<year>2019</year>
+		<price>32.99</price>
+	</book>
+</collection>

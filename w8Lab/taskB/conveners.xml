@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Units>
+	<Unit>
+		<title>Web Application Development</title>
+		<convener>Doug Grant</convener>
+		<moderator>Chengfei Liu</moderator>
+		<points>12.5</points>
+		<group>CSSE</group>
+		<Faculty>FICT</Faculty>
+	</Unit>
+	<Unit>
+		<title>Software Development in Java</title>
+		<convener>Buzz Bayley</convener>
+		<moderator>Doug Grant</moderator>
+		<points>25</points>
+		<group>CSSE</group>
+		<Faculty>FICT</Faculty>
+	</Unit>
+	<Unit>
+		<title>Financial Accounting</title>
+		<convener>Anil Dhoni</convener>
+		<moderator>Hoang Ngyuen</moderator>
+		<points>25</points>
+		<group>AFL</group>
+		<Faculty>FBE</Faculty>
+	</Unit>
+	<Unit>
+		<title>IS Project</title>
+		<convener>Paul Kindler</convener>
+		<moderator>Gil Ravalli</moderator>
+		<points>25</points>
+		<group>IS</group>
+		<Faculty>FICT</Faculty>
+	</Unit>
+</Units>
