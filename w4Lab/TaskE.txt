@@ -1,0 +1,21 @@
+
+// Task E: Query
+SELECT e.first_name,e.last_name,l.language,x.years, e.city
+FROM employees e, experience x,languages l 
+WHERE e.employee_id = x.employee_id 
+AND  x.language_id = l.language_id
+AND x.years >=5
+AND l.language = 'PHP'
+AND e.city ='Melbourne';
+
+
+// US DATASET - AS PER LECTURE NOTES SLIDE 60
+SELECT e.first_name,e.last_name,l.language,x.years, e.city
+FROM employees e, experience x,languages l 
+WHERE e.employee_id = x.employee_id 
+AND  x.language_id = l.language_id
+AND x.years >=5
+AND l.language = 'JavaScript'
+AND e.city ='Brookfield';
+
+
