@@ -1,0 +1,17 @@
+/*
+Filename: login.css
+Description: Styling Specific for login.php page;
+Student ID: 102125413 
+Name: Vinh Huynh
+Created on: 19/4/2020
+Last Modified: 19/4/2020
+
+*/
+
+/** Error Msg Box */
+.errMsg {
+    border: 1px dotted red;
+    color: red;
+    padding: 0.7em 0.5em;
+    width: 40%;
+}
