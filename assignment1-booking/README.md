@@ -1,7 +1,7 @@
 # Assignment 1 - Taxi Booking System
 
 <h2> System Overview </h2>
-<p>The simple system allows customers to make a taxi booking. The system consist of four parts</p>
+<p>The simple system allows customers to make a taxi booking. The system consists of four parts</p>
 <ol>
   <li> Customer Registration page </li>
   <li> Customer Login Page </li>
