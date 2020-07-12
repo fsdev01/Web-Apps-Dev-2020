@@ -1,0 +1,44 @@
+/*
+Filename: buying.css
+Student ID: 102125413 
+Name: Vinh Huynh
+Created on: 10/5/2020
+*/
+
+
+#main, #result {
+	margin-top: 2em;
+	margin-left: 2em;
+}
+
+.errMsgBox {
+	width: 550px;
+	border: 1px solid red;
+	color: red;
+	padding: 0.4em 0.4em;
+}
+
+.errMsg {
+	color: red;
+}
+
+#menu {
+	padding-bottom: 0.4em;
+}
+
+table, th, td{
+	border: 2px solid #547AA5;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+
+th,td {
+	padding: 0.5em 0.4em;
+}
+
+.cartMenu , th {
+	background-color: #CDEDFD;
+}

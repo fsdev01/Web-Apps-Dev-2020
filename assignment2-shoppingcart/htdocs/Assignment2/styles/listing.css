@@ -1,0 +1,44 @@
+/*
+Filename: listing.css
+Student ID: 102125413 
+Name: Vinh Huynh
+Created on: 10/5/2020
+*/
+
+
+#main, #result {
+	width: 400px;
+	margin-top: 0.9em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.errMsgBox {
+	width: 300px;
+	border: 1px solid red;
+	color: red;
+	padding: 0.2em 0.3em;
+}
+
+.errMsg {
+	color: red;
+}
+
+#main form , #main h3 {
+	margin-left: 0.4em;
+}
+
+#menu {
+	margin-bottom: 0.4em;
+}
+
+#listBtn input {
+	font-size: 12px;
+}
+
+#addBtn {
+	text-align: right;
+} 
+
+

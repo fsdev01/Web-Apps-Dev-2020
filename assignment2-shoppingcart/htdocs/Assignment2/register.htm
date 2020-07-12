@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Customer Registration"/>
+    <meta name="keywords" content="Customer,registration,rego"/>
+    <meta name="author" content="Vinh Huynh - 102125413"/>
+    <title> Customer Registration - BuysOnline</title>
+    <script src="scripts/register.js"> </script>
+    <link href="styles/common.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/register.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<!-- Task 2.2 - HTML Page for Customer Registration -->
+	<header>
+		<h1> Customer Registration - BuysOnline</h1>
+	</header>
+	<section id="main">
+		<h3> Customer Information </h3>
+		<form id="regForm">
+			<table>
+				<tbody>
+					<tr>
+						<td><label for="email">Email: </label></td>
+						<td><input type="email" id="email" name="email"/></td>
+					</tr>
+					<tr>
+						<td><label for="firstName">First Name: </label></td>
+						<td><input type="text" id="firstName" name="firstName"/></td>
+					</tr>
+					<tr>
+						<td><label for="lastName">Last Name: </label></td>
+						<td><input type="text" id="lastName" name="lastName"/></td>
+					</tr>
+					<tr>
+						<td><label for="pwd">Password: </label></td>
+						<td><input type="password" id="pwd" name="pwd"/></td>
+					</tr>
+					<tr>
+						<td><label for="confirmPwd">Confirm Password: </label></td>
+						<td><input type="password" id="confirmPwd" name="confirmPwd"/></td>
+					</tr>
+					<tr>
+						<td><label for="phoneNum">Contact Phone Number: </label></td>
+						<td><input type="text" id="phoneNum" name="phoneNum"/></td>
+					</tr>
+					<tr id='registerMenu'>
+						<td id='resetBtn'><input type="button" value="Reset" onclick="resetForm()"/> </td>
+						<td id='addBtn'><input type="button" value="Register" onclick="addCustomer()"/></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+
+		<br/>
+		<div id="result"></div>
+	</section>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<goods>
+  <item>
+    <id>1</id>
+    <name>Nintendo Switch</name>
+    <description>6.2 inch, 1280 x 720p touchscreen. Joy-Con controller</description>
+    <price>500</price>
+    <qtyavailable>2</qtyavailable>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+  <item>
+    <id>2</id>
+    <name>Animal Crossing: New Horizons</name>
+    <description>Escape to a deserted island and create your own paradise</description>
+    <price>100</price>
+    <qtyavailable>5</qtyavailable>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+  <item>
+    <id>3</id>
+    <name>Super Mario Bros U Deluxe</name>
+    <description>Side-scrolling adventures</description>
+    <price>50</price>
+    <qtyavailable>5</qtyavailable>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+  <item>
+    <id>4</id>
+    <name>Mario Kart 8 Deluxe</name>
+    <description>Race and battle your friends</description>
+    <price>50</price>
+    <qtyavailable>5</qtyavailable>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+  <item>
+    <id>5</id>
+    <name>Joy-Con Neon Controller</name>
+    <description>Nintendo Switch Controller</description>
+    <price>100</price>
+    <qtyavailable>2</qtyavailable>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+</goods>

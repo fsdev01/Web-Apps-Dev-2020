@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<customers>
+  <customer>
+    <custid>1</custid>
+    <firstname>test</firstname>
+    <lastname>test</lastname>
+    <email>test@gmail.com</email>
+    <password>123</password>
+    <phonenumber>(02)12345678</phonenumber>
+  </customer>
+  <customer>
+    <custid>2</custid>
+    <firstname>Michael</firstname>
+    <lastname>Scott</lastname>
+    <email>mscott@nbc.com</email>
+    <password>scott</password>
+    <phonenumber>03 12345678</phonenumber>
+  </customer>
+  <customer>
+    <custid>3</custid>
+    <firstname>Mindy</firstname>
+    <lastname>Kaling</lastname>
+    <email>mindy@fox.com</email>
+    <password>mindy</password>
+    <phonenumber>(02)12345678</phonenumber>
+  </customer>
+  <customer>
+    <custid>4</custid>
+    <firstname>Rachel</firstname>
+    <lastname>Green</lastname>
+    <email>rachel@friends.com</email>
+    <password>green</password>
+    <phonenumber>04 12345678</phonenumber>
+  </customer>
+  <customer>
+    <custid>5</custid>
+    <firstname>Phoebe</firstname>
+    <lastname>Buffay</lastname>
+    <email>phoebe@friends.com</email>
+    <password>phoebe</password>
+    <phonenumber></phonenumber>
+  </customer>
+</customers>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="product listing"/>
+    <meta name="keywords" content="product,item,listing,add"/>
+    <meta name="author" content="Vinh Huynh - 102125413"/>
+    <title> Listing - BuysOnline</title>
+    <!-- Listing and Logout Scripts -->
+    <script src="scripts/listing.js"> </script>
+    <script src="scripts/manageLogin.js"> </script>
+    <!-- styling scripts -->
+    <link href="styles/common.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/listing.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<!-- Task 3.3 - HTML Page for LISTING -->
+	<header>
+		<h1> Listing - BuysOnline </h1>
+		<div id="menu">
+			<strong>Menu Options: </strong>
+			<a href="listing.htm">Listing</a>
+			<a href="processing.htm">Processing</a>
+			<!-- Logout Link as Per Task 4.5 -->
+			<a href="logout.htm" onclick="logoutUser('manager')">Logout</a>
+		</div>
+	</header>
+
+	<div id="main">
+		<h3> Add New Item </h3>
+		<form id="listForm">
+			<table>
+				<tr>
+					<td><label for="name">Item name:</label></td>
+					<td><input type="text" id="name" name="name"/></td>
+				</tr>
+				<tr>
+					<td><label for="price">Item price:</label></td>
+					<td><input type="text" id="price" name="price"/></td>
+				</tr>
+				<tr>
+					<td><label for="qty">Item quantity:</label></td>
+					<td><input type="text" id="qty" name="qty"/></td>
+				</tr>
+				<tr>
+					<td><label for="desc">Item description:</label></td>
+					<td><textarea name="desc" id="desc" rows="3" cols="18"></textarea></td>
+				</tr>
+				<tr id='listBtn'>
+					<td><input id="resetBtn" type="button" value="Reset" onclick="resetForm()"/> </td>
+					<td id="addBtn"><input type="button" value="Add Item" onclick="addItem()"/></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+	<div id="result"></div>
+
+
+</body>
+</html>

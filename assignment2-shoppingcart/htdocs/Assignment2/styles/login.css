@@ -1,0 +1,38 @@
+/*
+Filename: login.css
+Student ID: 102125413 
+Name: Vinh Huynh
+Created on: 11/5/2020
+*/
+
+
+#main, #result {
+	width: 400px;
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.errMsgBox {
+	border: 1px solid red;
+	color: red;
+	padding: 0.1em 0.2em;
+	width: 300px;
+}
+
+#loginForm td {
+	padding-top: 0.4em;
+	padding-right: 0.4em;
+
+}
+
+
+#btnRow td{
+	text-align: right;
+	padding-top: 0.5em;
+}
+
+#btnRow input {
+	font-size: 12px;
+}
+

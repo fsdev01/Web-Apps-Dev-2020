@@ -1,0 +1,39 @@
+/*
+Filename: buysonline.css
+Student ID: 102125413 
+Name: Vinh Huynh
+Created on: 10/5/2020
+*/
+
+
+#main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+
+}
+
+
+/* Navigation Links - static styling */
+nav a {
+	display: block;
+	padding: 0.3em 1.2em;
+	border: 2px solid #07679E;
+	margin-bottom: 20px;
+	width: 100px;
+	border-radius: 10px;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: #07679E;
+}
+
+/* Hover over the links */
+nav a:hover {
+	background-color: #CDEDFD;
+	border: 2px solid #D72638;
+	font-weight: bold;
+	color: #D72638;
+}

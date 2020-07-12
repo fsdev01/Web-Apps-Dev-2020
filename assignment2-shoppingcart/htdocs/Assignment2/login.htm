@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="customer Login"/>
+    <meta name="keywords" content="customer,login"/>
+    <meta name="author" content="Vinh Huynh - 102125413"/>
+    <title> Customer Login - BuysOnline</title>
+    <script src="scripts/login.js" > </script>
+    <link href="styles/common.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/login.css" type="text/css" rel="stylesheet"/>
+
+</head>
+<body>
+	<!-- Task 4.1 - HTML LOGIN PAGE FOR CUSTOMER -->
+	<header>
+		<h1> Customer Login - BuysOnline</h1>
+	</header>
+
+	<section id="main">
+		<h3> Login </h3>
+		<form id="loginForm">
+			<table>
+				<tbody>
+				<tr>
+					<td><label for="email">Email: </label></td>
+					<td><input type="text" id="email" name="email" required="required"/></td>
+				</tr>
+				<tr>
+					<td><label for="pwd">Password: </label></td>
+					<td><input type="password" id="pwd" name="pwd" required="required"/></td>
+				</tr>
+				<tr id='btnRow'>
+					<td colspan="2"><input type="button" value="Login" onclick="customerLogin()"/></td>
+				</tr>
+				</tbody>
+			</table>
+		</form>
+		<div id="result"></div>
+	</section>
+
+
+</body>
+</html>

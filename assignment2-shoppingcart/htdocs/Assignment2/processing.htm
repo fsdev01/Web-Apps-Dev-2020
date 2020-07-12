@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="process item"/>
+    <meta name="keywords" content="process,item,processing"/>
+    <meta name="author" content="Vinh Huynh - 102125413"/>
+    <title> Process Sales - BuysOnline</title>
+    <!-- Processing and logout scripts -->
+    <script src="scripts/processing.js"> </script>
+    <script src="scripts/manageLogin.js"> </script>
+    <!-- styling scripts -->
+    <link href="styles/common.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/processing.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<!-- Task 5.1 HTML PAGE FOR MANAGER PROCESSING -->
+	<header>
+		<h1> Process Sales - BuysOnline </h1>
+		<div id="menu">
+			<strong>Menu Options: </strong>
+			<a href="listing.htm">Listing</a>
+			<a href="processing.htm">Processing</a>
+			<!-- Task 5.3 - Logout Link -->
+			<a href="logout.htm" onclick="logoutUser('manager')">Logout</a>
+		</div>
+	</header>
+
+	<section id="main">
+		<h3><strong>Processing Form</strong></h3>
+		<div id="processForm"></div>
+	</section>
+
+	<br/>
+	<div id="result"></div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+/*
+Filename: processing.css
+Student ID: 102125413 
+Name: Vinh Huynh
+Created on: 10/5/2020
+*/
+
+
+#main, #result {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.errMsgBox {
+	width: 550px;
+	border: 1px solid red;
+	color: red;
+	padding: 0.4em 0.4em;
+}
+
+.errMsg {
+	color: red;
+}
+
+
+#menu {
+	padding-bottom: 0.5em;
+}
+
+
+#processTableMenu , th {
+	text-align: center; 
+	background-color: #CDEDFD;
+}
+
+#emptyProcessTable {
+	text-align: center;
+}
+
+table, th, td{
+	border: 2px solid #547AA5;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th,td {
+	padding: 0.4em 0.4em;
+}
