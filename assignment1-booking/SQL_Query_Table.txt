@@ -1,4 +1,0 @@
-SELECT b.bookno, c.custname, b.passname, b.passphoneno,b.unitno,b.streetno,b.streetname,b.pickupsuburb,b.destsuburb,b.pickupdatetime
-FROM CUSTOMER c, BOOKING b
-WHERE c.email = b.custemail
-AND assignedStatus='UNASSIGNED'
