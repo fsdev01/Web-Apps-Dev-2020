@@ -1,0 +1,62 @@
+/*
+Filename: booking.css
+Description: Styling Specific for booking.php page;
+Student ID: 102125413 
+Name: Vinh Huynh
+Created on: 19/4/2020
+Last Modified: 19/4/2020
+
+*/
+
+/** Error Msg - User is not logged in */
+#notLoggedInMsg {
+    border: 1px dotted red;
+    color: red;
+    padding: 0.1em 0.5em;
+    margin-top: 2em;
+    width: 40%;
+}
+
+/** Standard Error - Form Validation **/
+.errMsg {
+	border: 1px dotted red;
+    color: red;
+    padding: 0.1em 0.5em;
+    width: 70%;
+}
+
+/** Heading - Form Validation Errs **/
+.errMsg h3 {
+	text-decoration: underline;
+	margin-top: 0.2em;
+}
+
+/** 40 Minute Rule Message **/
+#specialRule {
+	text-decoration: underline;
+	font-style:italic;
+	font-weight:bold;
+
+}
+#specialRuleDate {
+	color: #2ff768;
+	font-weight: bold;
+}
+
+/** Confirmation Message - Booking was created in Database and Email Sent*/
+#confirmMsg {
+	border: 3px dashed green;
+	background-color: rgba(0,255,0,0.4);
+	width: 70%;
+	padding-left: 1.5em;
+}
+/** Heading of Confirmation Message **/
+#confirmMsg h3 {
+	margin-top: 0.5em;
+	text-decoration: underline;
+}
+
+/**  Warning Message - Email was not sent for some reason (e.g. email server down), but booking was created**/
+#failedEmail {
+	color: #ff8c00;
+}
