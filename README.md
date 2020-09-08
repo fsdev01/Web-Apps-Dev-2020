@@ -2,7 +2,7 @@
 
 <h3>This Unit focused on:</h3>
 <ul>
-  <li> Back-end development using PHP </li>
+  <li> Back-end development using LAMP Stack </li>
   <li> AJAX communication using XML </li>
 </ul>
 
